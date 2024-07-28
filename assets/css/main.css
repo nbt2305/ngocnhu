@@ -21,7 +21,7 @@
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: rgba(1, 34, 101, 1); /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #32353a; /* Color for headings, subheadings and title throughout the website */
+  --heading-color: rgba(1, 34, 101, 1); /* Color for headings, subheadings and title throughout the website */
   --accent-color: rgba(1, 34, 101, 1); /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -214,7 +214,7 @@ h6 {
 ------------------------------*/
 .index-page .header {
   --background-color: rgba(255, 255, 255, 0);
-  --heading-color: rgba(250, 211, 12, 1);
+  --heading-color: rgba(1, 34, 101, 1);
   --nav-color: rgba(255, 255, 255, 0.5);
   --nav-hover-color: rgba(250, 211, 12, 1);
 }
@@ -223,7 +223,7 @@ h6 {
 ------------------------------*/
 .index-page.scrolled .header {
   --background-color: #ffffff;
-  --heading-color: #32353a;
+  --heading-color: rgba(1, 34, 101, 1);
   --nav-color: #3a3939;
   --nav-hover-color: rgba(250, 211, 12, 1);
 }
